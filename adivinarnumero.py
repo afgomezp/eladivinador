@@ -18,9 +18,9 @@ import random
 #se cambia los numero aleatorios para generar conflictos
 
 def run():
-    numero_aleatorio = random.randint(1,80)
+    numero_aleatorio = random.randint(1,180)
     print ("vas a tener 5 intentos para adivinar el numero")
-    numero_elegido = int(input("elige un numero del 1 al 80: "))
+    numero_elegido = int(input("elige un numero del 1 al 180: "))
 
     contador = 1
     while contador <5:
