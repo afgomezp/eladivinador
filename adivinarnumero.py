@@ -19,11 +19,11 @@ import random
 
 def run():
     numero_aleatorio = random.randint(1,120)
-    print ("vas a tener 8 intentos para adivinar el numero")
+    print ("vas a tener 12 intentos para adivinar el numero")
     numero_elegido = int(input("elige un numero del 1 al 180: "))
 
     contador = 1
-    while contador <8:
+    while contador <12:
         if numero_elegido < numero_aleatorio:
             print ('busca un numero más grande')
             numero_elegido =int(input('elige otro numero: '))
@@ -33,7 +33,7 @@ def run():
             numero_elegido =int(input('elige otro numero: '))
         else:
             print ("ganaste")
-            contador =8
+            contador =12
 
         contador =contador + 1
 
