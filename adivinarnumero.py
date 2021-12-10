@@ -38,3 +38,6 @@ def run():
         contador =contador + 1
 
     print ("el juego terminó")
+    
+if __name__=='__main__':
+    run()
