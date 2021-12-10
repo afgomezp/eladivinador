@@ -17,24 +17,23 @@ import random
 
 #se cambia los numero aleatorios para generar conflictos
 
+# en esta version se realiza una nueva cabecera donde no se tendra sistema de vidas
+
 def run():
     numero_aleatorio = random.randint(1,120)
-    print ("vas a tener 12 intentos para adivinar el numero")
-    numero_elegido = int(input("elige un numero del 1 al 180: "))
+    numero_elegido = int(input("elige un numero del 1 al 120: "))
 
     contador = 1
-    while contador <12:
+    while numero_elegido != numero_aleatorio:
         if numero_elegido < numero_aleatorio:
             print ('busca un numero más grande')
             numero_elegido =int(input('elige otro numero: '))
 
-        elif numero_elegido > numero_aleatorio:
+        else:
             print ('Busca un numero más pequeño')
             numero_elegido =int(input('elige otro numero: '))
-        else:
-            print ("ganaste")
-            contador =12
-
-        contador =contador + 1
-
+    print ('ganste')
     print ("el juego terminó")
+
+if __name__=='__main__':
+    run()
