@@ -17,6 +17,8 @@ import random
 
 #se cambia los numero aleatorios para generar conflictos
 
+#experimento1
+
 #master 1
 
 #master 2
