@@ -17,6 +17,8 @@ import random
 
 #se cambia los numero aleatorios para generar conflictos
 
+#master 1
+
 def run():
     numero_aleatorio = random.randint(1,120)
     print ("vas a tener 12 intentos para adivinar el numero")
