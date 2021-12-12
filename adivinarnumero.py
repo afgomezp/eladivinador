@@ -19,6 +19,8 @@ import random
 
 #master 1
 
+#master 2
+
 def run():
     numero_aleatorio = random.randint(1,120)
     print ("vas a tener 12 intentos para adivinar el numero")
